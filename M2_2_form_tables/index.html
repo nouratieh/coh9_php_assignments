@@ -1,0 +1,151 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registeration Form</title>
+    <style>
+        table, th, td {
+           border: 1px solid black;
+        }
+     </style>
+</head>
+<body>
+    <header>
+        <title>Student Registeration Form</title>
+        <h1>Student Registeration Form</h1>
+    </header>
+
+    <main>
+        <form action="">
+            <div class="Name">
+                <label for="Student Name">Student Name</label>
+                <input type="text" name="name" id="Student Name">
+            </div>
+            <br>
+            <div class="Date of brith">
+                <label for="Date of brith">Date of brith</label>
+                <input type="date" name="date" id="Date of brith">
+            </div>
+            <br> 
+            <div class="weight">
+                <label for="weight">Weight</label>
+                <input type="number" name="weight" id="weight" min="0">
+            </div>
+<br>
+<div class="gender">
+    <label for="">Gender</label>
+    <input type="radio" id="Male" name="gender" value="Male">
+<label for="Male">Male</label>
+<input type="radio" id="Female" name="gender" value="Female">
+<label for="Female">Female</label><br>
+</div>
+<br>
+<div class="email">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+</div>
+<br>
+<div class="phone number">
+    <label for="phone number">Phone Number</label>
+    <input type="text" name="phone" id="phone number" >
+</div>
+<br>
+<div class="University">
+    <label for="University">University Name</label>
+    <input type="text" name="University" id="University">
+</div>
+<br>
+<div class="where you live ">
+    <label for="where you live "> City you live in  </label>
+    <select name="City" id="where you live">
+        <option value="amman">Amman</option>
+        <option value="Zarqa">Zarqa</option>
+        <option value="Maraq">Mafraq</option>
+        <option value="Salt">Salt</option>
+        <option value="Karak">Karak</option>
+        <option value="Irbid">Irbid</option>
+       <option value="Aqaba">Aqaba</option>
+        <option value="Tafila">Tafila</option>
+        <option value="Maan">Maan</option>
+        <option value="Ajloun">Ajloun</option>
+        <option value="Jerash">Jerash</option>
+        <option value="Madaba">Madaba</option>
+
+    </select>
+</div>
+<br>
+<div class="address">
+    <label for="Address">Address</label>
+    <textarea name="address" id="Address" cols="30" rows="2"></textarea>
+</div>
+<br>
+<div class="student's favorite color">
+    <label for="student's favorite color">Favorite Color</label>
+    <input type="text" name="color" id="student's favorite color">
+
+</div>
+<br>
+<div class="Student CV">
+    <label for="Student CV">Personal CV</label>
+    <input type="file" name="CV" id="Student CV">
+
+</div>
+<br>
+<div class="contact">
+    <label for="Contact">Contact you through email  
+    </label>
+    <label for="yes">Yes</label>
+    <input type="checkbox" name="contact" id="yes">
+    <label for="no">No</label>
+    <input type="checkbox" name="contact" id="no">
+</div>
+        </form>
+ <!-- Submit button-->
+ <button type="submit">Submit form</button>
+ <!-- <input type="submit" value="submit"> -->
+<br>
+ <hr>
+ <br>
+
+ <table >
+    <tr>
+      <th>Name</th>
+      <th>Date of Brith</th>
+      <th>Gender</th>
+      <th>Email</th>
+      <th>Phone Number</th>
+      <th>University</th>
+      <th>City</th>
+      <th>Address</th>
+      <th>Color</th>
+      <th>Contact via email</th>
+    </tr>
+    <tr>
+      <td>Nour Atieh</td>
+      <td>12/12/1994</td>
+      <td>Female</td>
+      <td>nour.atieh@gmail.com</td>
+      <td>0780000000</td>
+      <td>Hashemite University</td>
+      <td>Amman</td>
+      <td>Jabal Alhussein</td>
+      <td>Black</td>
+      <td>yes</td>
+    </tr>
+    <tr>
+        <td>Omar</td>
+        <td>25/6/1998</td>
+        <td>Male</td>
+        <td>omar@hotmail.com</td>
+        <td>0780000000</td>
+        <td>University of Jordan</td>
+        <td>Irbid</td>
+        <td>Alsarih</td>
+        <td>White</td>
+        <td>yes</td>
+    </tr>
+  </table>
+    </main>
+</body>
+</html>
